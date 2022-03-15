@@ -6,6 +6,6 @@
 # SIMULATE PREDICTOR VARIABLE
 x <- rnorm(n = 100)
 # CALCULATE RESPONSE VARIABLE AND ADD NOISE
-y <- 2 * x + rnorm(n = 100, sd = 0.2)
+y <- x^2 + rnorm(n = 100, sd = 0.2)
 # PLOT THE DATA
 plot(x = x, y = y)
